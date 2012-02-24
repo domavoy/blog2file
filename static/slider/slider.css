@@ -1,0 +1,199 @@
+/*
+	Accessible News Slider : Plugin Specific
+-----------------------------------------------------------------------------------------*/
+
+.accessible_news_slider img {
+	border: 0;
+}
+.accessible_news_slider li,
+.accessible_news_slider p {
+	font-family: "Tahoma", "Verdana", sans-serif;
+	margin: 0;
+	padding: 0;
+	font-size: 1.1em;
+	line-height: 1.6;
+}
+.accessible_news_slider li p {
+	font-size: 1em;
+}
+.accessible_news_slider {
+	position: relative;
+	overflow: hidden;
+}
+.accessible_news_slider .javascript_css {
+	position: relative;
+	z-index: 3;
+	padding: 20px;
+	background: #6699cc;;
+}
+.accessible_news_slider .skip_to_news {
+	position: absolute;
+	top: 0;
+	left: -9999px;
+}
+.accessible_news_slider .back {
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 2;
+}
+.accessible_news_slider .back a,
+.accessible_news_slider .next a {
+	display: none;
+	outline: none; /* This is optional, and is arguably less accessible. */
+}
+.accessible_news_slider .next {
+	position: absolute;
+	top: 0;
+	right: 0;
+	z-index: 2;
+}
+.accessible_news_slider ul {
+	position: relative;
+	left: 0;
+	width: auto;
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+	overflow: hidden;
+	z-index: 1;
+}
+.accessible_news_slider li {
+	float: left;
+	display: inline;
+	width: 200px;
+}
+
+/*
+	Accessible News Slider : Plugin Specific : Theme [ Candy Coated ]
+-----------------------------------------------------------------------------------------*/
+
+.candy_coated  {
+	width: 800px;
+	border-bottom: 2px solid #ccc;
+	margin: 0 0 32px 60px;
+}
+.candy_coated a {
+	color: #ff3300;
+}
+.candy_coated .back {
+	width: 61px;
+	height: 58px;
+	background: url(static/back_bg.gif) no-repeat;
+}
+.candy_coated .next {
+	width: 61px;
+	height: 58px;
+	left: 540px;
+	background: url(static/next_bg.gif) no-repeat;
+}
+.candy_coated .next a {
+	position: absolute;
+	top: 10px;
+	right: 10px;
+	width: 150px;
+	height: 40px;
+	line-height: 30px;
+	background: url(static/next.gif) no-repeat top right;
+}
+.candy_coated .back a {
+	position: absolute;
+	top: 10px;
+	left: 10px;
+	width: 150px;
+	height: 40px;
+	line-height: 30px;
+	text-align: right;
+	background: url(static/back.gif) no-repeat;
+}
+.candy_coated .view_all {
+	border-top: 2px solid #ccc;
+	margin: 58px 0 0 0;
+	padding: 10px;
+	background: #eee;
+	text-align: center;
+}
+.candy_coated ul {
+	border-bottom: 2px solid #eee;
+}
+.candy_coated li {
+	padding: 15px 0;
+	overflow: hidden;
+}
+.candy_coated li img {
+	float: left;
+	display: inline;
+}
+.candy_coated li p {
+	float: left;
+	display: inline;
+	margin: 0 0 0 10px;
+	width: 190px;
+}
+
+/*
+	Accessible News Slider : Plugin Specific : Theme [ Business as Usual ]
+-----------------------------------------------------------------------------------------*/
+
+.business_as_usual  {
+	width: 720px;
+	border-bottom: 1px solid #ddd;
+	margin: 0 0 32px 0;
+}
+.business_as_usual a {
+	color: #363636;
+}
+.business_as_usual .back {
+	width: 360px;
+	height: 23px;
+	left: 0;
+	background: url(/static/slider/themes/business_as_usual/back_bg.gif) no-repeat top right;
+}
+.business_as_usual .back a {
+	position: absolute;
+	top: 0;
+	right: 130px;
+	width: 150px;
+	height: 23px;
+	line-height: 23px;
+	background: url(/static/slider/themes/business_as_usual/back.gif) no-repeat top right;
+}
+.business_as_usual .next {
+	width: 361px;
+	height: 23px;
+	right: 0;
+	background: url(/static/slider/themes/business_as_usual/next_bg.gif) no-repeat top left;
+}
+.business_as_usual .next a {
+	position: absolute;
+	top: 0;
+	left: 130px;
+	width: 150px;
+	height: 23px;
+	line-height: 23px;
+	text-align: right;
+	background: url(/static/slider/themes/business_as_usual/next.gif) no-repeat top left;
+}
+.business_as_usual .view_all {
+	border-top: 1px solid #ddd;
+	border-bottom: 1px solid #ddd;
+	margin: 35px 0 0 0;
+	padding: 8px;
+	background: url(/static/slider/themes/business_as_usual/view_all_bg.gif) repeat-x bottom left;
+	text-align: center;
+}
+.business_as_usual li {
+	padding: 15px 0;
+	overflow: hidden;
+	width: 240px;
+}
+.business_as_usual li img {
+	float: left;
+	display: inline;
+}
+.business_as_usual li p {
+	float: left;
+	display: inline;
+	margin: 0 0 0 10px;
+	width: 140px;
+}

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!---
+PREPARING:
+1. copy except .xxx, build.xml
+2. change config_p.php => config.php, delete config.p
+3. copy .htaccess, .htpasswd for 'adm'
+4. create 'out' folder, if not exists
+5. update daemon.php: set include path
+
+DEPLOY:
+5. all copy to deploy
+6. then copy by ftp \
+7. then zipped: deploy_YYYY_MM_DD_HH_MM_SS.zip
+
+2 modes
+> production								deployProduction
+> beta (need to change www/beta/config.php)		deploy(default)
+-->

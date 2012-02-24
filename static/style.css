@@ -1,0 +1,294 @@
+
+
+html { font-size: 62.5%;}
+body {
+  color: #000; font-size: 1.3em; font-family: "Tahoma", "Verdana", sans-serif; background-color: #FFFFFF; min-width: 800px;
+}
+
+a {
+  color: #0856B7; text-decoration: underline;
+}
+a:hover { text-decoration: none; }
+a:visited { color: #4E00AF; }
+a:active { color: #AF0000; }
+span.eventTrigger { border-bottom: dashed 1px #0856B7; color: #0856B7; cursor: pointer; }
+img.eventTrigger { cursor: pointer; }
+.gray { color: #8D8D8D; }
+.gray2 { color: #d0d0d0; }
+.green { color: #119203; }
+.error {
+  color: #b31616;
+}
+.warning {
+  color: #b31616;
+}
+.red {
+  color: #b31616;
+}
+.warning:visited {
+  color: #b31616;
+}
+.red:visited {
+  color: #b31616;
+}
+
+img { border: 0px; }
+img.ico { margin: 0px 3px -3px 0px; }
+img.separator { margin: 0px 0px -5px 0px; }
+img.ajaxIndicator { display: none; position: absolute; }
+
+h1 {
+  font-weight: normal;
+}
+h2 {
+  font-weight: normal;
+}
+h3 {
+  font-weight: normal;
+}
+h4 {
+  font-weight: normal;
+}
+
+/* Blocks with highlighted code */
+.code {
+  border-left: solid 4px #EDEDED; background-color: #fff; padding-left: 0.7em;
+}
+.code p.languageName { font-size: 0.8em; color: #d0d0d0; margin-bottom: 0px; }
+.code pre { font-size: 1.3em; margin-top: 0.3em; }
+
+
+
+ul {
+  padding-left: 1.8em; margin-bottom: 2em;
+}
+ol {
+  padding-left: 1.8em; margin-bottom: 2em;
+}
+li { margin-bottom: 0.7em; }
+
+/*********************************************/
+/* Sticking footer to the bottom of the page */
+/* ----------------------------------------- */
+html {
+  height: 100%; margin: 0px; padding: 0px;
+}
+body {
+  height: 100%; margin: 0px; padding: 0px;
+}
+.pageContainer { position: relative; min-height: 100%; height: auto !important; height: 100%; margin-bottom: -10px; }
+.pageFooter { margin-bottom: 30px; width: 100%; height: 100px; bottom: 100 !important; left: 0;}
+.pageContent:after { clear: both; display: block; font: 1px/0px serif; content: "."; height: 30px; visibility: hidden; }
+.push { display: none; }
+/*********************************************/
+
+.header {
+  height: 54px; background-color: #6699cc; border-bottom: solid 2px #cccccc;
+}
+.header .logo { float: left; }
+.header .controls {
+  float: right; font-size: 11px; padding: 12px 10px 0px 0px;
+}
+.header .controls a {
+  color: #2E0052;
+}
+.header .controls a:visited {
+  color: #2E0052;
+}
+.header .controls a:active {
+  color: #2E0052;
+}
+.header .controls .logout { float: left; text-align: right; margin-top: -5px; }
+
+.pageFooter .links {
+  text-align: right; color: #bfc2c4; font-size: 11px; float: right; margin-top: 30px; margin-right: 20px;
+}
+.pageFooter .links a {
+  color: #85a2b1;
+}
+.pageFooter .links a:visited {
+  color: #85a2b1;
+}
+.pageFooter .links a.feedback {
+  color: #c42915; font-weight: bold;
+}
+
+
+.mymenu_main {
+	height: 20px;
+}
+
+.mymenu{
+text-align: right; font-size: 11px;  margin-top: 10px; margin-right: 10px;
+}
+
+.mymenu .links a {
+  color: #85a2b1;
+}
+.mymenu .links a:visited {
+  color: #85a2b1;
+}
+
+.submitName {
+  width: 20em; height: auto; padding: 1.5em 0.5em; margin: auto; background-color: #409600; font-size: 80%; color: #FFF; line-height: 90%; text-align: center; position: absolute; top: -1em; right: 20em; z-index: 10;
+}
+.submitName p.caption { margin-top: 0.3em; margin-bottom: 0px; }
+.submitName p.field { margin-top: 0.9em; margin-bottom: 0px; }
+.submitName form { margin: 0px; }
+.headerShadow { height: 12px; background-image: url('/images/header_shadow.gif'); font-size: 0px; }
+.pageContent { margin: 20px 0px 20px 0px; padding-bottom: 62px; }
+
+/* MAINPAGE */
+.flashMessages { margin: 1em; }
+.pageContent.root {
+  margin: 3em auto 0px auto; width: 780px; padding: 0px 1em 0px 1em;
+}
+.pageContent.root .createForm {
+  float: center; padding: 0px 0px 0px 0px; width: 700px; font-size: 1.1em;
+}
+.pageContent.root .createForm input.text { font-size: 1.2em; padding: 0.2em; margin-top: 0.7em; width: 90%;}
+.pageContent.root .createForm input.text.myemail { font-size: 1.2em; padding: 0.2em; width: 160px; }
+.pageContent.root .createForm input.button { font-size: 1.4em; padding: 0.3em; margin-top: 1em; }
+.pageContent.root .createForm textarea { font-size: 1.4em; padding: 0.2em; width: 100%; height: 170px; margin-top: 0.7em;}
+.pageContent.root .createForm input.url { border: none; width: 1px; display: none; }
+.pageContent.root .createForm .globalErrorMessage {
+  margin-bottom: 2em;
+}
+.pageContent.root .createForm .globalErrorMessage h1 { font-size: 1.5em; margin: 0px 0px 0.3em 0px; color: #b31616; }
+.pageContent.root .createForm .globalErrorMessage p { margin-top: 0px; }
+.pageContent.root .createForm .tips { font-size: 0.85em; }
+.pageContent.root .createForm .errorField input.text {
+  border: solid 2px #b31616; background-color: #ffd0d0;
+}
+.pageContent.root .createForm .errorField textarea {
+  border: solid 2px #b31616; background-color: #ffd0d0;
+}
+.pageContent.root form .field { margin: 1em 0px 0px 0px; }
+.pageContent.root .about {
+  float: left; width: 700px; margin-left: 0px;
+}
+.pageContent.root .about h1 { font-size: 1.8em; font-weight: normal; }
+
+/* THREAD */
+.threadContainer { margin-right: -250px; width: 100%; float: left; }
+span.author { color: #119203; }
+div.credits { font-size: 0.9em; color: #8D8D8D; margin-bottom: 1em; }
+
+.thread {
+  max-width: 800px; margin-right: 250px; padding-left: 20px;
+}
+.thread h3 { margin: 0px 0px 0px 10px; font-size: 1.2em; color: #8D8D8D; }
+.thread .subject { margin: 0px; font-size: 1.3em; height: 1.8em; }
+.thread .message {
+  margin-bottom: 2em; padding: 1em; background-color: #FFF1CA;
+}
+.thread .message .postReply {
+  margin: 1em 0px 0px 0px;
+}
+.thread .message .postReply span.eventTrigger { font-size: 1.3em; }
+.thread .message .content { margin-top: 1em; padding: 0px 0px 0px 0px; }
+.thread .reply {
+  margin: 1em 0px 0px 10px;
+}
+.thread .reply .content { margin: 0px }
+.thread .reply .credits {
+  margin-top: 0.3em; margin-bottom: 0px; font-size: 0.8em; color: #8D8D8D;
+}
+.thread .reply .credits img.ico { margin-left: 20px; margin-right: 5px; }
+.thread .reply.new { display: none; }
+.thread .reply.l2 { padding-left: 1.5em; }
+.thread .reply.l3 { padding-left: 3em; }
+.thread .reply.l4 { padding-left: 4.5em; }
+.thread .reply.l5 { padding-left: 6em; }
+.thread .reply.l6 { padding-left: 7.5em; }
+.thread .reply.l7 { padding-left: 9em; }
+.thread .reply.l8 { padding-left: 10.5em; }
+.thread .reply.l9 { padding-left: 12em; }
+.thread .reply.fresh .credits { background-color: #e4eff8 }
+.thread .postReply textarea { width: 100%; height: 5em; }
+.thread .postReply.noParent { margin: 1.5em 0px 1.5em 0px; }
+.thread .postReply.hasParent { margin: 1em 0px 0px 15px; }
+.thread #postNewReplyLink { font-size: 1.3em; display: none; }
+.thread .commentLink {
+  text-decoration: none; color: #0856B7; border-bottom: dashed 1px #0856B7;
+}
+.thread .commentLinks:visited {
+  text-decoration: none; color: #0856B7; border-bottom: dashed 1px #0856B7;
+}
+
+/*WARNING*/
+.pageContent.systemMessage {
+  width: 600px; margin: 0px auto;
+}
+.pageContent.systemMessage h1 { font-size: 2em; text-align: center; }
+.pageContent.systemMessage p { text-align: center; }
+
+/* MY INBOXES */
+.pageContent.myInboxes { margin: 0px auto; width: 700px; }
+.pageContent.myInboxes .message {
+  background-color: #EDEDED; padding: 1em; margin: 1.5em 0px 0.5em 0px;
+}
+.pageContent.myInboxes .message p { margin-top: 0px; margin-bottom: 1em; }
+.pageContent.myInboxes .message .credits { font-size: 0.8em; margin-bottom: 0px; }
+.pageContent.myInboxes .message.my { background-color: #FFF1CA }
+.pageContent.myInboxes .newComments {
+  font-size: 0.85em; font-weight: bold; margin-left: 1em; margin-bottom: 1em;
+}
+.pageContent.myInboxes .newComments a:visited { color: #0856B7; }
+.pageContent.myProfile {
+  margin: 3em auto 0px auto; width: 450px;
+}
+.pageContent.about {
+  margin: 3em auto 0px auto; width: 450px;
+}
+.pageContent.faq {
+  margin: 3em auto 0px auto; width: 450px;
+}
+.pageContent.feedback {
+  margin: 3em auto 0px auto; width: 450px;
+}
+.pageContent.myProfile {
+  margin: 3em auto 0px auto; width: 450px; 
+}
+.pageContent.myProfile h2 { margin-bottom: 0px; }
+.pageContent.myProfile form { margin-top: 3em; }
+.pageContent.about h3 { margin-top: 1.8em; margin-bottom: 0.5em; }
+.pageContent.faq h3 { margin-top: 1.8em; margin-bottom: 0.5em; }
+
+.controlPanel {
+  width: 219px; float: right; margin-top: 2.2em; margin-right: 15px; background-color: #EDEDED; background-image: url('/images/control_panel_top.gif'); background-repeat: repeat-x;
+}
+.controlPanel p { margin-top: 1.2em; margin-bottom: 1em; }
+.controlPanel .bottom { height: 6px; background-image: url('/images/control_panel_bottom.gif'); background-repeat: no-repeat; background-color: #FFF; }
+.controlPanel .users {
+  padding: 0px 15px 0px 15px; font-size: 0.85em; color: #000;
+}
+.controlPanel .settings {
+  padding: 0px 15px 0px 15px; font-size: 0.85em; color: #000;
+}
+.controlPanel .url {
+  padding: 0px 15px 0px 15px; font-size: 0.85em; color: #000;
+}
+.controlPanel .recipientSettings {
+  padding: 0px 15px 0px 15px; font-size: 0.85em; color: #000;
+}
+.controlPanel .users {
+  color: #8D8D8D;
+}
+.controlPanel .users ul { list-style-type: none; padding-left: 7px; margin-bottom: 2em; font-size: 1.05em; margin-left: 0px; }
+.controlPanel .users li { margin: 0px 0px 0.7em 0px; }
+.controlPanel .users li.newRecipient { display: none; }
+.controlPanel .settings {
+  padding-top: 0.7em; margin-top: 0px;
+}
+.controlPanel .settings p { margin-top: 0px; }
+.controlPanel .settings form { display: none; }
+.controlPanel .url {
+  margin-top: 1em;
+}
+.controlPanel .url span.inboxUrl { font-size: 0.85em; font-weight: bold; }
+.controlPanel .url img.ico { cursor: pointer; }
+.controlPanel .recipientSettings { margin: 0px 0px 1em 7px; }
+
+
+.url_text {vertical-align:middle;font-family:tahoma;font-size: 1.2em;line-height:1.2em;height:border:1px solid #086A9C;padding-top:2px;text-indent:2px;color:#999;padding: 0.2em; margin-top: 0.7em; width: 95%;}

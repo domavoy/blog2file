@@ -1,0 +1,12 @@
+<?php
+require_once('../config.php');
+require_once('../libs/libs.php');
+require_once('../task/task.php');
+require_once('../lang/lang.php');
+require_once("../tmpl/header.php");
+require_once("./head.php");
+?>
+<br/>
+<?php
+phpinfo();
+?>
